@@ -1,0 +1,27 @@
+.campus {
+  text-align: center;
+}
+.gallery img {
+  width: 250px;
+  border-radius: 10px;
+}
+.gallery {
+  display: flex;
+  gap: 20px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.dark-btn img {
+  width: 30px;
+  margin-left: 2px;
+}
+/* Media Query */
+@media (max-width: 800px) {
+  .gallery {
+    flex-wrap: wrap;
+  }
+  .gallery img {
+    width: 48%;
+    margin-bottom: 25px;
+  }
+}
