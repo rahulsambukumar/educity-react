@@ -14,7 +14,6 @@ function Campus() {
           <img src={lab} alt="" />
           <img src={friends} alt="" />
           <img src={library} alt="" />
-          <img />
         </div>
         <button className="btn dark-btn">
           See More here <img src={white_arrow} alt="" />
